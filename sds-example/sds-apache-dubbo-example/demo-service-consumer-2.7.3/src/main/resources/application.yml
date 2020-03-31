@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: hello-consumer
+dubbo:
+  registry:
+    address: zookeeper://127.0.01:2181
+sds:
+  appGroupName: demo
+  appName: demo-dubbo-consumer
+  serverAddrList: https://sds.chpengzh.com

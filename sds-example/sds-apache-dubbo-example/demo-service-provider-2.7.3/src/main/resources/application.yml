@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: hello-provider
+dubbo:
+  protocol:
+    name: dubbo
+    port: 12345
+  registry:
+    address: zookeeper://127.0.01:2181
+sds:
+  appGroupName: demo
+  appName: demo-dubbo-provider
+  serverAddrList: https://sds.chpengzh.com
